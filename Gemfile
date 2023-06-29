@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.6.6'
+ruby '2.7.5'
 
 gem 'rails', " ~> 6.0.3"
 gem 'russian'
 gem 'static_docs' #, path: "/Users/mikdiet/projects/opensource/static_docs"
 gem "bootsnap", ">= 1.1.0", require: false
 
-gem 'pg'
+gem 'sqlite3', '~> 1.4'
 gem 'textacular'
 
 gem 'nokogiri'

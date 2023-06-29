@@ -20,6 +20,8 @@
 * Заполнить базу
 
     ```
+    $ rails db:drop
+    $ rails db:setup
     $ rails static_docs:import
     ```
 

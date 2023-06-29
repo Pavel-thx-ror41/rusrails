@@ -1,7 +1,7 @@
 *~
-config/database.yml
+# config/database.yml
 config/*.sphinx.conf
-db/*.sqlite3
+# db/*.sqlite3
 db/sphinx
 log/*.log
 log/*.pid
@@ -15,10 +15,10 @@ webrat.log
 .sass-cache/
 tmp/
 diff.diff
-config/settings.local.yml
-config/settings/*.local.yml
-config/environments/*.local.yml
-config/settings/production.yml
+# config/settings.local.yml
+# config/settings/*.local.yml
+# config/environments/*.local.yml
+# config/settings/production.yml
 node_modules
 source/diff.diffrake
 .tool-versions
